@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&family=Lexend+Deca:wght@300;400&display=swap');
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1 {
+    padding: 25px;
+    background-color: white;
+}
+
+.div1 h1 {
+    font-size: 15px;
+    color: var(--Cyan);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700px;
+}
+
+.p1 {
+    font-weight: 400px;
+    font-size: 15px;
+    color: var(--Bright-Yellow);
+    font-family: 'Karla', sans-serif;
+}
+
+.p2 {
+    font-weight: 400px;
+    font-size: 15px;
+    color: var(--Grayish-Blue);
+    font-family: 'Karla', sans-serif;
+}
+
+.div2 {
+    background-color: var(--Cyan);
+    padding: 25px;
+}
+
+.div2 h1 {
+    font-weight: 700px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.div2 .p1 {
+    font-weight: 400px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.609);
+    font-family: 'Karla', sans-serif;
+}
+
+.div2 span {
+    font-weight: 700px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.div2 .p2 {
+    font-weight: 400px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.div2 a {
+    box-shadow: 5px 5px 10px rgba(136, 136, 136, 0.808);
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--Bright-Yellow);
+    padding: 10px 30%;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+}
+
+.div3 {
+    padding: 10px;
+    background-color: #2ab2b0c5;
+    font-weight: 400px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        position: fixed;
+        inset: 0rem;
+        margin: auto;
+        display: grid;
+        width: 45%;
+        height: 400px;
+        box-shadow: 5px 5px 10px rgb(207, 207, 207);
+    }
+    .div1 {
+        grid-area: 1 / 1 / 1 / 2;
+        border-radius: 10px 10px 0 0;
+    }
+    .div2 {
+        grid-area: 2 / 1 / 2 / 1;
+        border-radius: 0 0 0 10px;
+    }
+    .div3 {
+        grid-area: 2 / 2 / 2 / 2;
+        border-radius: 0 0 10px 0;
+    }
+}
