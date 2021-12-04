@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/ahillah07/single-price-grid-component-master)
+- Live Site URL: (https://ahillah07.github.io/single-price-grid-component-master/)
 
 ## My process
 That takes 2 days
@@ -68,3 +68,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Ahillah](https://www.your-site.com)
 - Frontend Mentor - [@ahillah07](https://www.frontendmentor.io/profile/ahillah07)
+- sorry for my english
